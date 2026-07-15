@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>LendPal has moved</title>
+  <script>
+    const privacyPaths = [
+      "/lendpal.home/privacy",
+      "/lendpal.home/privacy/",
+      "/lendpal.home/privacy.html",
+      "/lendpal.home/privacy-policy",
+      "/lendpal.home/privacy-policy/",
+      "/lendpal.home/privacy-policy.html"
+    ];
+
+    const destination = privacyPaths.includes(location.pathname)
+      ? "https://sylvan-d-ash.github.io/portfolio/lendpal/privacy.html"
+      : "https://sylvan-d-ash.github.io/portfolio/lendpal/";
+
+    window.location.replace(destination);
+  </script>
+</head>
+<body>
+  <p>LendPal has moved.</p>
+</body>
+</html>
